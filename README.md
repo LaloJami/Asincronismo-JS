@@ -87,7 +87,7 @@ Una función que recibe otra función como parámetro se le denomina función de
 El callback en este caso sería la función que es pasada como parámetro, mas no la función que lo recibe.
 ### Lectura obligatoria
 [Event Loop: la naturaleza asincrónica de Javascript](https://medium.com/@ubykuo/event-loop-la-naturaleza-asincr%C3%B3nica-de-javascript-78d0a9a3e03d)
-
+[Promise : Te lo prometo por Javascript](https://medium.com/@mvtercero85/promise-te-lo-prometo-por-javascript-8b3ae2c5bbb4)
 
 ``XMLHttpRequest`` es la forma antigua de hacer llamados, como el profesor lo menciona usa ese y no Fetch que es el actual, por que no conocemos aún las promesas y fecth es con promesas, para saber por que el profesor uso OPEN y todas esas funciones aqui està la forma de usar XMLHttpRequest : https://developer.mozilla.org/es/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest.
 
