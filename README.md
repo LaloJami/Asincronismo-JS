@@ -103,3 +103,12 @@ Es recomendable de no realizar mas de 3 callback para no caer en un **callback H
 Si una función es asíncrona siempre va a ser asíncrona pongas lo que le pongas.
 
 Lo único que hace async/await es pausar la ejecución del programa hasta que la promesa sea resuelta dando el efecto de que es “síncrona”
+
+Callbacks --> Ventajas: Simple(una función que recibe otra función). Son universales, corren en cualquier navegador.
+Desventajas: Composición tediosa, anidando cada vez más elementos. Caer en Callback Hell.
+
+Promesas --> Ventajas: Facilmente enlazables .Then( return… ).Then - Fácil e intuitivo de leer.
+Desventajas: Posible error si no se retorna el siguiente llamado. No corre en todos los navegadores.
+
+Async-Await --> Ventajas: Se puede usar try-catch . Código más ordenado e intuitivo.
+Desventajas: No corre en todos los navegadores (se requiere un transpilador).
