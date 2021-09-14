@@ -69,6 +69,8 @@ Problema: vamos a consumir ciertos datos de una API
 
 API a consumir: https://rickandmortyapi.com/
 
+API de marvel: https://developer.marvel.com/
+
 Listas de otras APIS que puedes usar: https://github.com/public-apis/public-apis
 
 ¿Qué vamos a pedir en esta API?
@@ -76,4 +78,19 @@ Listas de otras APIS que puedes usar: https://github.com/public-apis/public-apis
 - nombres del primer personajes que nos regrese
 - pedir la dimension del cual pertenece este personaje
 
+Con esto vamos a utilizar la API 3 veces en cada uno de los ejercicios.
 
+¿Dudas con el callback?
+Es una función que al crearla le pasamos como parámetro una segunda función.
+
+Una función que recibe otra función como parámetro se le denomina función de orden superior (higher-order function).
+El callback en este caso sería la función que es pasada como parámetro, mas no la función que lo recibe.
+### Lectura obligatoria
+[Event Loop: la naturaleza asincrónica de Javascript](https://medium.com/@ubykuo/event-loop-la-naturaleza-asincr%C3%B3nica-de-javascript-78d0a9a3e03d)
+
+
+``XMLHttpRequest`` es la forma antigua de hacer llamados, como el profesor lo menciona usa ese y no Fetch que es el actual, por que no conocemos aún las promesas y fecth es con promesas, para saber por que el profesor uso OPEN y todas esas funciones aqui està la forma de usar XMLHttpRequest : https://developer.mozilla.org/es/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest.
+
+``" new Error "`` que el profesor crea, es una nueva instancia de la clase Error que tiene Javascript, son clases ya implicitas que tiene javascript en este caso es para monstrar bien un mensaje de error podemos usarla, màs informaciòn aqui : https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Error.
+
+Para los que son fron-end y están aprendiendo de Back, el profesor uso GET por que hace parte de los método http, en este caso necesitamos pedir información a las url ,màs información: https://developer.mozilla.org/es/docs/Web/HTTP/Methods
