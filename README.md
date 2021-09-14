@@ -97,3 +97,9 @@ Para los que son fron-end y están aprendiendo de Back, el profesor uso GET por 
 
 
 Es recomendable de no realizar mas de 3 callback para no caer en un **callback Hell**, si tu proyecto tiene una funcion con mas de 3 callback, se recomienda hacer una revision y utilizar una mejor forma de ejecutar el codigo, para ello estan las promesas o el Async Away
+
+``Async/await`` no es mas que Syntax Sugar. Es una manera mas bonita de hacer lo mismo que estabamos haciendo con ``.then()``. La clave es recordar que si una función regresa un promesa, podemos usar el keyword ``await``, que le indicia al navagador: “Espera a que la promesa se resuleva y almacena su resultado en esta variable”. Todo esto toma lugar dentro de una función asincrona, asi que usamos async para lograr esto
+
+Si una función es asíncrona siempre va a ser asíncrona pongas lo que le pongas.
+
+Lo único que hace async/await es pausar la ejecución del programa hasta que la promesa sea resuelta dando el efecto de que es “síncrona”
